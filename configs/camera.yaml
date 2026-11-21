@@ -1,0 +1,10 @@
+# Edit to match your camera. If fx/fy are unknown, hfov_deg is used to derive them.
+image_width: 1280
+image_height: 720
+hfov_deg: 70          # horizontal field of view
+camera_height_m: 1.4  # lens height above the ground
+horizon_y: null       # pixel row of the horizon; null = image centre (camera level)
+real_heights_m:       # real-world object heights used by the pinhole model
+  cone: 0.45          # standard 18" traffic cone (use 0.70 for large cones)
+  barrier: 1.00
+  stop sign: 0.75     # 30" sign face

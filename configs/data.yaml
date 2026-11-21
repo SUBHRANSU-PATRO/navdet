@@ -1,0 +1,7 @@
+path: C:/Users/subhr/Downloads/navdet/navdet/datasets/navobjects
+train: images/train
+val: images/val
+names:
+  0: cone
+  1: barrier
+  2: stop sign

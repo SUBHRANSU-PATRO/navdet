@@ -1,0 +1,17 @@
+# datasets and training outputs
+datasets/
+runs/
+check/
+
+# models (regenerated or downloaded automatically)
+*.pt
+*.onnx
+*_openvino_model/
+
+# keep the trained weights
+!weights/best.pt
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
